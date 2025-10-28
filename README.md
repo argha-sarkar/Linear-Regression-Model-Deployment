@@ -112,7 +112,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 [![GitHub](https://img.shields.io/badge/Github-0077B5?style=flat&logo=GitHub&logoColor=Black)](https://github.com/argha-sarkar)
 [![GitHub](https://img.shields.io/badge/X-0077B5?style=flat&logo=X&logoColor=Black)](https://x.com/arghasa64623109)
 ---
-<img align="right" width="300" src="[https://incubator.ucf.edu/wp-content/uploads/2023/07/artificial-intelligence-new-technology-science-futuristic-abstract-human-brain-ai-technology-cpu-central-processor-unit-chipset-big-data-machine-learning-cyber-mind-domination-generative-ai-scaled-1-2048x1366.jpg]" alt="Argha Sarkar" />
 
 # Hi, I'm Argha Sarkar 👋
 
