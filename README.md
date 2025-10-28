@@ -43,18 +43,21 @@ This repository contains code to:
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/argha-sarkar/Linear-Regression-Model-Deployment.git
    cd Linear-Regression-Model-Deployment
    ```
 
 2. Create a virtual environment (recommended):
+   
    ```bash
    python -m venv venv
    source venv/bin/activate    # On Windows: venv\Scripts\activate
    ```
 
-3. Install dependencies:
+4. Install dependencies:
+   
    ```bash
    pip install -r requirements.txt
    ```
@@ -100,6 +103,37 @@ This Web Application can be containerized using Docker.
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## Author
+
+**Argha Sarkar**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arghasarkar/)
+[![GitHub](https://img.shields.io/badge/Github-0077B5?style=flat&logo=GitHub&logoColor=Black)](https://github.com/argha-sarkar)
+[![GitHub](https://img.shields.io/badge/X-0077B5?style=flat&logo=X&logoColor=Black)](https://x.com/arghasa64623109)
+---
+<img align="right" width="300" src="https://github.com/argha-sarkar.png" alt="Argha Sarkar" />
+
+# Hi, I'm Argha Sarkar 👋
+
+**Data Scientist | MBA Student | AI, Cloud & Cybersecurity Enthusiast**
+
+> *"Turning data into decisions, and curiosity into code."*
+
+---
+
+## 🚀 About Me
+
+I'm a **passionate Data Scientist** pursuing an **MBA at Manipal University Jaipur (2026)**.  
+Previously, I completed my **B.Tech in Computer Science & Engineering** from **Narula Institute of Technology (2018)**.
+
+I specialize in extracting **actionable insights** from complex datasets and building **intelligent systems** using **AI, ML, and advanced analytics**.
+
+---
+
+## 🛠️ Specialization
+
+```text
+Data Science | Data Analytics | Artificial Intelligence | Cyber Security| Cloud Computing |
 
 ## License
 
