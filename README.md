@@ -31,17 +31,14 @@ This repository contains code to:
 
 ## Project Structure
 
-```
-.
-├── templates/               # Sample dataset (optional)
-              ├──index.html  # html file
-├── model.pkl             # model file
-├── Salary_dataset         # data set
-├── app.py              # Flask/FastAPI server
-├── linear_deploy.py            # Model training script
-├── requirements.txt    # Python dependencies
-└── README.md           # This file
-```
+├── templates/              # HTML templates for web interface
+│   └── index.html          # Main HTML file
+├── model.pkl               # Trained Linear Regression model
+├── Salary_dataset/         # Dataset folder (CSV or data files)
+├── app.py                  # Flask/FastAPI server for deployment
+├── linear_deploy.py        # Model training and saving script
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation (this file)
 
 ## Installation
 
