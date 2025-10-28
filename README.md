@@ -1,4 +1,3 @@
-Here is a basic `README.md` file for the GitHub repository **argha-sarkar/Linear-Regression-Model-Deployment**:
 
 ```markdown
 # Linear Regression Model Deployment
@@ -18,27 +17,28 @@ This repository contains code to:
 - Data preprocessing
 - Model training with scikit-learn
 - Model persistence
-- REST API for predictions
+- Flask API for predictions
 - Example client script to test the API
 
 ## Tech Stack
 
-- Python 3.8+
+- Python 3.13.5
 - scikit-learn
 - pandas
 - numpy
-- Flask (or FastAPI)
-- joblib
+- Flask 
+- pickle
 
 ## Project Structure
 
 ```
 .
-├── data/               # Sample dataset (optional)
-├── models/             # Saved model files
+├── templates/               # Sample dataset (optional)
+              ├──index.html  # html file
+├── model.pkl             # model file
+├── Salary_dataset         # data set
 ├── app.py              # Flask/FastAPI server
-├── train.py            # Model training script
-├── predict.py          # Prediction script
+├── linear_deploy.py            # Model training script
 ├── requirements.txt    # Python dependencies
 └── README.md           # This file
 ```
@@ -66,7 +66,7 @@ This repository contains code to:
 
 ### 1. Train the Model
 ```bash
-python train.py
+python linear_deploy.py
 ```
 
 ### 2. Start the API Server
@@ -74,11 +74,12 @@ python train.py
 python app.py
 ```
 
-### 3. Make Predictions
-Use `predict.py` or send POST requests to `http://localhost:5000/predict`
-
+### 3. Docker 
 ```bash
-python predict.py
+docker build -t linear-regression-web-app .
+```
+```bash
+docker run -p 5000:5000 linear-regression-web-app 
 ```
 
 ## Example API Request
@@ -88,14 +89,16 @@ curl -X POST http://localhost:5000/predict \
      -H "Content-Type: application/json" \
      -d '{"data": [[5.1, 3.5, 1.4, 0.2]]}'
 ```
+or
+
+Simply open type on (Chrome, Edge, Perplexity, Mozila etc..) and run
+```bash
+http://localhost:5000
+```
 
 ## Deployment
 
-This model can be containerized using Docker or deployed on platforms like:
-- Heroku
-- Render
-- AWS Lambda + API Gateway
-- Google Cloud Run
+This Web Application can be containerized using Docker.
 
 ## Contributing
 
@@ -111,7 +114,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ### Next Steps for You:
 1. Create a `README.md` file in your repository root.
 2. Paste the above content.
-3. Add actual files like `train.py`, `app.py`, `requirements.txt`, etc.
+3. Add actual files like `linear_deploy.py`, `app.py`, `requirements.txt`, etc.
 4. (Optional) Add a `LICENSE` file if you want to include the MIT License.
 
 Let me know if you want me to generate the actual Python scripts (`train.py`, `app.py`, etc.) to go with this README!
